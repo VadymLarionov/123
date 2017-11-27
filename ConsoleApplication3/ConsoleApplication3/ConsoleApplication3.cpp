@@ -1,9 +1,8 @@
-// ConsoleApplication3.cpp: определяет точку входа для консольного приложения.
+// ConsoleApplication3.cpp: Г®ГЇГ°ГҐГ¤ГҐГ«ГїГҐГІ ГІГ®Г·ГЄГі ГўГµГ®Г¤Г  Г¤Г«Гї ГЄГ®Г­Г±Г®Г«ГјГ­Г®ГЈГ® ГЇГ°ГЁГ«Г®Г¦ГҐГ­ГЁГї.
 //
 
 #include "stdafx.h"
 #include "iostream"
-#include "stdlib.h"
 #include "windows.h"
 #include "time.h"
 #include "math.h"
@@ -15,14 +14,14 @@ int _tmain(int argc, _TCHAR* argv[])
 
 {
 	const int n=5;
-	int arr[n]; 			// опис масиву
-	int i; 			// параметр циклу for 
-				// лічильник додатніх елементів 
-	srand(time(NULL)); 		// ініціалізація датчику
+	int arr[n]; 			
+	int i; 			
+				
+	srand(time(NULL)); 		
 	for (i = 0; i <n; i++)
 	{
-		arr[i] = rand() % 100; // заповнення масиву
-		cout<<"\t"<< arr[i]; // вивід ел-тів масиву 
+		arr[i] = rand() % 100; 
+		cout<<"\t"<< arr[i]; 
 	}
 
 	int max = arr[0];
